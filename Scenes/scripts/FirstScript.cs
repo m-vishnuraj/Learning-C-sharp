@@ -16,6 +16,15 @@ public class FirstScript : MonoBehaviour
         {
             print("Game Over");
         }
+        else if (score > 0 && score < 10)
+        {
+            print("Level 1");
+        }
+
+        else if (score >= 10)
+        {
+            print("Level 2");
+        }
         else
         {
             print("Game Running");
