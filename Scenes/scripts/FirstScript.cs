@@ -7,27 +7,18 @@ public class FirstScript : MonoBehaviour
 {
     // public float speed;
 
-    public int score;
+    public string test;
 
     // Start is called before the first frame update
     void Start()
     {
-        if(score <= 0)
+        if (test == "vishnu")
         {
-            print("Game Over");
-        }
-        else if (score > 0 && score < 10)
-        {
-            print("Level 1");
-        }
-
-        else if (score >= 10)
-        {
-            print("Level 2");
+            print("Value is correct");
         }
         else
         {
-            print("Game Running");
+            print("Incorrect");
         }
     }
 
